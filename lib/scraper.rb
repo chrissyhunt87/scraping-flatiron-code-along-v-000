@@ -17,11 +17,6 @@ class Scraper
     end
   end
 
-  # Title: doc.css(".post").first.css("h2").text
-  # Schedule: doc.css(".post").first.css(".date").text
-  # Description: doc.css(".post").first.css("p").text
-
-
   def get_courses
     # Use CSS selector to grab HTML elements that contain a course
     # Returns collection of courses (XML elements)
