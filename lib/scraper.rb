@@ -16,10 +16,10 @@ class Scraper
     end
   end
 
-  def get_page 
-    #Use Nokogiri + open-uri to grab whole HTML doc from page
+  def get_page
+    # Use Nokogiri + open-uri to grab whole HTML doc from page
   end
 
-  
+
 
 end
