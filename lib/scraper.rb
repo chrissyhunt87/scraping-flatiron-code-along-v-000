@@ -7,13 +7,10 @@ require_relative './course.rb'
 class Scraper
 
   def get_page
-    # Use Nokogiri + open-uri to grab whole HTML doc from page
     doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
   end
 
   def get_courses
-    # Use CSS selector to grab HTML elements that contain a course
-    # Returns collection of courses (XML elements)
     self.get_page.css(".post")
   end
 
