@@ -12,7 +12,9 @@ class Scraper
     binding.pry
   end
 
-  #Title: doc.css(".post").first.css("h2").text
+  # Title: doc.css(".post").first.css("h2").text
+  # Schedule: doc.css(".post").first.css(".date").text
+  
 
   def get_courses
     # Use CSS selector to grab HTML elements that contain a course
