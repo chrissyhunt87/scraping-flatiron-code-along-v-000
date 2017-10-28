@@ -20,6 +20,7 @@ class Scraper
   def get_courses
     # Use CSS selector to grab HTML elements that contain a course
     # Returns collection of courses (XML elements)
+    self.get_page.css(".post")
   end
 
   def make_courses
