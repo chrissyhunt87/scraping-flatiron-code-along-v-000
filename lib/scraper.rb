@@ -15,21 +15,4 @@ class Scraper
       end
     end
   end
-
-  def get_page
-    # Use Nokogiri + open-uri to grab whole HTML doc from page
-  end
-
-  def get_courses
-    # Use CSS selector to grab HTML elements that contain a course
-    # Returns collection of courses (XML elements)
-  end
-
-  def make_courses
-    # Instantiates Course objects
-    # Gives correct title, schedule, description attributes
-  end
-
-
-
 end
