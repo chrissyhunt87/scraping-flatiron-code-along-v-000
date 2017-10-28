@@ -22,7 +22,7 @@ class Scraper
 
   def get_courses
     # Use CSS selector to grab HTML elements that contain a course
-    # Returns collection of courses
+    # Returns collection of courses (XML elements)
   end
 
 
