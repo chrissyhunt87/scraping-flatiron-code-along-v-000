@@ -20,6 +20,10 @@ class Scraper
     # Use Nokogiri + open-uri to grab whole HTML doc from page
   end
 
+  def get_courses
+    
+  end
+
 
 
 end
