@@ -25,6 +25,9 @@ class Scraper
     # Returns collection of courses (XML elements)
   end
 
+  def make_courses
+  end
+
 
 
 end
